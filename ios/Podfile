@@ -1,0 +1,15 @@
+platform :ios, '14.0'
+
+target 'Runner' do
+  use_frameworks!
+
+  # Pods for Runner
+  # Add your pods here, for example:
+  # pod 'SomePod', '~> 1.0'
+
+  target 'RunnerTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
